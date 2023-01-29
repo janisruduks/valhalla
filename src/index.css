@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 html {
-    background-image: url(./assets/bg.svg);
-    background-size: 100% auto;
+    background-image: url(./assets/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
 }
