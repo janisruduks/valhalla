@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,4 +8,8 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
+}
+
+.norse {
+    font-family: 'Skranji', cursive;
 }

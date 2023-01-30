@@ -3,9 +3,8 @@ import React from 'react'
 const Welcome = () => {
   return (
     <div className='lg:p-14 py-16 my-2 p-3 bg-black/30 rounded-xl lg:my-2'>
-        <h1 class=" text-white  text-center my-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl">
-          <b className='text-6xl lg:text-7xl bg-clip-text bg-gradient-to-r text-transparent from-c2 to-c0'>Valhalla Lounge</b><br/><br/>
-          vieta, kur baudīt dzērienus un socializēties</h1>
+        <h1 class=" text-white  text-center my-4 text-5xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl">
+          Iepazīsti eleganto pasauli stilīgākā bāra galamērķī Siguldā</h1>
         <p class="text-center mb-6 text-lg font-normal text-white lg:text-xl sm:px-16 ">Valhalla Lounge ir moderns bārs, kas atrodas pašā Siguldas sirdī, kas piedāvā siltu un viesmīlīgu atmosfēru, lai apmeklētāji varētu baudīt plašu gardu dzērienu un gardu uzkodu klāstu.</p>
         <a href="#" class="float-right inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-black bg-white rounded-lg hover:bg-black/50 hover:text-white focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
             Kur mēs atrodamies

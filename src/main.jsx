@@ -8,6 +8,8 @@ import ImageContent from './components/image-content.component'
 import Video from './components/video.component'
 import MapAndContent from './components/map-content.component'
 import ImageGrid from './components/image-grid'
+import Contact from './components/contact.component'
+import Footer from './components/footer.component'
 
 
   const images = [
@@ -29,6 +31,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <ImageGrid images={images} />
       </div>
       <MapAndContent />
+      <Contact />
+      <Footer />
     </div>
   </React.StrictMode>,
 )

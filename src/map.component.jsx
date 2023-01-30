@@ -19,6 +19,7 @@ function MapContent() {
   })
 
   const [map, setMap] = React.useState(null)
+  const [placeName, setPlaceName] = React.useState(null)
 
   const onLoad = React.useCallback(function callback(map) {
     // This is just an example of getting and using the map instance!!! don't just blindly copy!
@@ -26,7 +27,13 @@ function MapContent() {
     map.fitBounds(bounds);
 
     setMap(map)
-  }, [])
+    const geocoder = new window.google.maps.Geocoder();
+    geocoder.geocode({ location: center }, (results, status) => {
+      if (status === 'OK' && results[0]) {
+        setPlaceName(results[0].formatted_address);
+      }
+    });
+  }, [center])
 
   const onUnmount = React.useCallback(function callback(map) {
     setMap(null)
@@ -36,13 +43,13 @@ function MapContent() {
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}
-        zoom={19}
+        zoom={10}
         onLoad={onLoad}
         onUnmount={onUnmount}
       >
-
-        { /* Child components, such as markers, info windows, etc. */ }
-        <></>
+        {placeName && (
+          <Marker position={center} label={placeName} />
+        )}
       </GoogleMap>
   ) : <></>
 }

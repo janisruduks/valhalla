@@ -12,7 +12,7 @@ module.exports = {
         'c1': '#cb6a3a',
         'c2': '#B179D7',
         'c3': '#533EA8',
-      }
+      },
     },
   },
   plugins: [],
