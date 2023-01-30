@@ -1,6 +1,7 @@
 import React from 'react'
 import FullScaleImage from './full-scale-image'
 
+
 const ImageGrid = ({images}) => {
   return (
     <div className="grid grid-cols-3 gap-4">
