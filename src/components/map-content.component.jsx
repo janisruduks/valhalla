@@ -14,7 +14,7 @@ const MapAndContent = () => {
             <p className='py-1'>Ceturtdiena</p>
             <p className='py-1'>Piektdiena</p>
             <p className='py-1'>Sestdiena</p>
-            <p className='py-1'>Svētdienaa</p>
+            <p className='py-1'>Svētdiena</p>
           </div>
           <div className='col-span-1 text-white text-center'>
             <p className='py-1'>Slēgts</p>
