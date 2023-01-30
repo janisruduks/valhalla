@@ -12,7 +12,9 @@
     "@react-google-maps/api": "^2.18.1",
     "google-maps-reviews": "^0.3.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-grid-gallery": "^1.0.0",
+    "yet-another-react-lightbox": "^2.2.7"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",

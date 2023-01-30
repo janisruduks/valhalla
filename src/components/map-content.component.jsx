@@ -7,8 +7,8 @@ const MapAndContent = () => {
         <div>
             <p className='text-white'>Hellllloooo world</p>
         </div>
-        <div className='col-span-1' >
-            <MapContent />
+        <div className='col-span-1 rounded-xl border border-white overflow-hidden' >
+            <MapContent/>
         </div>
     </div>
   )
