@@ -18,7 +18,7 @@ const Weather = () => {
     <div>
       {weatherData.current_weather && (
         <div className='text-xs lg:text-sm float-right px-3 m-3 text-gray-300'>
-          <p>Tempertūra Siguldā: <b className=''>{weatherData.current_weather.temperature}°C</b></p>
+          <p>Temperatūra Siguldā: <b className=''>{weatherData.current_weather.temperature}°C</b></p>
         </div>
       )}
     </div>
